@@ -71,7 +71,7 @@ for filename in os.listdir(music_folder):
                 f.write(metadata["cover_art"])
 
         song_data = {
-            "backgroundImage": "./assets/images/"+sanitized_filename,  # Use sanitized filename
+            #"backgroundImage": "./assets/images/"+sanitized_filename,  # Use sanitized filename
             "title": metadata.get("title", "Unknown"),
             "album": metadata.get("album", "Unknown"),
             "year": metadata.get("year", "Unknown"),
